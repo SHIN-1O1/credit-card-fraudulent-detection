@@ -27,7 +27,7 @@ scikit-learn for machine learning algorithms.
 
 imblearn for handling imbalanced datasets.
 
-##Steps Performed
+## Steps Performed
 
 1. Data Loading and Exploration
 
