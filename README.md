@@ -1,9 +1,9 @@
 # credit-card-fraudulent-detection
-##Overview
+## Overview
 
 This project aims to detect fraudulent credit card transactions using machine learning techniques. It is crucial to identify fraudulent transactions effectively to prevent financial losses and ensure the security of customers' credit card information. The dataset used in this project contains anonymized credit card transaction data, with features such as transaction time, amount, and 28 principal components derived from PCA.
 
-##Dataset
+## Dataset
 
 The dataset used for this project is publicly available and contains the following key features:
 
@@ -13,7 +13,7 @@ Amount: The transaction amount.
 
 Class: The target variable, where 1 indicates a fraudulent transaction and 0 indicates a normal transaction.
 
-##Libraries Used
+## Libraries Used
 
 The project uses the following Python libraries:
 
@@ -81,7 +81,7 @@ F1-Score
 
 Created confusion matrices to visualize the performance of models.
 
-##Results
+## Results
 
 The models were evaluated, and the following results were observed:
 
@@ -99,7 +99,7 @@ One-Class SVM:
 
 Struggled with accuracy due to dataset complexity and imbalances.
 
-##Visualizations
+## Visualizations
 
 Key visualizations generated during the project include:
 
@@ -109,7 +109,7 @@ Heatmaps illustrating the correlation between different features.
 
 Confusion matrices for model performance evaluation.
 
-##Tools and Environment
+## Tools and Environment
 
 Python (3.12)
 
@@ -127,7 +127,7 @@ pip install -r requirements.txt
 
 Run the Jupyter Notebook or Python script to train and evaluate models.
 
-##Conclusion
+## Conclusion
 
 The project successfully demonstrated the application of machine learning techniques to detect fraudulent credit card transactions. While models like Isolation Forest and LOF performed well, further optimization and additional data preprocessing can enhance their performance.
 
@@ -139,6 +139,6 @@ Use additional features or external datasets to improve the model's robustness.
 
 Deploy the model in a real-time system for live transaction monitoring.
 
-##Acknowledgments
+## Acknowledgments
 
 Special thanks to the open-source community for providing the dataset and libraries used in this project.
